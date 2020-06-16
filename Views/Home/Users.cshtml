@@ -1,0 +1,13 @@
+@model User
+
+<div class="jumbotron">
+    <h1 class="display-4">User's authenticated area</h1>
+    <p class="lead">User: @Model.FirstName @Model.LastName</p>
+    <hr class="my-4">
+    <p>Some private Content</p>
+</div>
+
+
+<div class="alert alert-info">
+    <a href="/logout">Logout</a>
+</div>
